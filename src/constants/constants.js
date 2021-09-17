@@ -5,7 +5,6 @@ export const projects = [
   {
     title: 'Robo-Friends',
     description: "Using React, and some Html and Css styling properties created a new Robofriends app that combines the topics that i learned along my way to master React.js framework.",
-    image: '/images/1.png',
     tags: ['React','JavScript', 'Css', 'Html'],
     source: 'https://github.com/vijay2249/RoboFriends',
     visit: 'https://vijay2249.github.io/RoboFriends/',
@@ -13,17 +12,15 @@ export const projects = [
   },
   {
     title: 'Smart-Brain',
-    description: "Using React and react hooks and api concept created a new project under the name SmartBrain, this detects the human face in a picture, uses clarifai api",
-    image: '/images/4.jpg',
-    tags: ['React', 'API','HTML','Css','React Hooks'],
-    source: 'https://github.com/vijay2249/SmartBrainFrontend',
-    visit: 'https://vijay2249.github.io/SmartBrainFrontend/',
+    description: "Using React and react hooks and Clarifai api created a new project SmartBrain, this detects the human face in a picture, stores userdata in sql programmed heroku server",
+    tags: ['React', 'API','HTML','Css','Hooks', "Redux" ,"SQL", "Heroku", "Github"],
+    source: 'https://github.com/vijay2249/Smart-Brain',
+    visit: 'https://vijay2249.github.io/Smart-Brain/',
     id: id++,
   },
   {
-    title: 'FrontEnd Tech Learnings',
+    title: 'Frontend Learnings',
     description:"The best move while learning web development is to apply the learnings and learn from the mistakes, so here are some of my learning applications done in codesandbox.io ",
-    image: '/images/2.png',
     tags: ['React', 'JavaScript', 'Scss', 'Css', 'Bootstrap','Html','npm'],
     source: 'https://codesandbox.io/u/vijay2249',
     visit: 'https://codesandbox.io/u/vijay2249',
@@ -38,6 +35,13 @@ export const projects = [
     visit: 'https://github.com/DUMMY-the-BOT',
     id:id++,
   },
+  {
+    title: "Delete duplicated in folder",
+    description: "Sometimes its better to have a program/software that do check for duplicate files and deleted them, I got the same issue and created this python script. In this script based on the arguments provided, it either deletes/prints the duplicate files",
+    source: "https://github.com/vijay2249/stress-relief",
+    visit: "https://github.com/vijay2249/stress-relief",
+    tags: ['Python', "Hashing"]
+  }
 ];
 
 export const WebDevData = [

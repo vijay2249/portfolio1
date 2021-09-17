@@ -4,6 +4,12 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+const buttonsStylingDisplay = {
+  "display": "flex",
+  "flexDirection": "row",
+  "height":"64px"
+}
+
 const Hero = () => (
   <Section row nopadding >
     <LeftSection>
@@ -11,9 +17,11 @@ const Hero = () => (
         I'm<br/>Vijay CN
       </SectionTitle>
       <SectionText>
-        I am enthusiastic web development learner and also Cyber Security Enthusist, Along with some extra curricular activities..
+        I am enthusiatic web developer, worked with frameworks like ReactJs, Bootstrap, Babel along with languages like HTML, CSS, JS..
       </SectionText>
-      <Button onClick={() => window.location="https://github.com/vijay2249"} >Learn More</Button>
+      <div style={buttonsStylingDisplay}>
+        <Button onClick={() => window.location="https://github.com/vijay2249"} >Learn More</Button>
+      </div>
     </LeftSection>
   </Section>
 );

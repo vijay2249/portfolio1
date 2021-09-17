@@ -31,6 +31,9 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
 
 `;
 

@@ -20,7 +20,7 @@ const Technologies = () =>  (
         <DiDjango size="5rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Node js<br/>Overview Django</ListParagraph>
+          <ListParagraph>Node js(overview)<br/>Django(Overview)</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
