@@ -18,12 +18,12 @@ const Header = () =>  (
       <li><Link href="#projects"><NavLink>Projects</NavLink></Link></li>
       <li><Link href="#tech"><NavLink>Technologies</NavLink></Link></li>
       <li><Link href="#study"><NavLink>Study</NavLink></Link></li>
+      <li><Link href="#achieved"><NavLink>Achievements</NavLink></Link></li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/vijay2249"><AiFillGithub size="3rem"/></SocialIcons>
       <SocialIcons href="https://codesandbox.io/u/vijay2249"><AiFillCodeSandboxSquare size="3rem"/></SocialIcons>
       <SocialIcons href="https://linkedin.com/in/vijay-chowdary-nelakurthi"><AiFillLinkedin size="3rem"/></SocialIcons>
-      <SocialIcons href="https://instagram.com/vcn_styles"><AiFillInstagram size="3rem"/></SocialIcons>
     </Div3>
   </Container>
 );

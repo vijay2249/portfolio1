@@ -13,7 +13,7 @@ const Technologies = () =>  (
         <DiCodepen size="5rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>React js<br/>React Bootstrap<br/>Html<br/>Sass<br/>Babel<br/>Css</ListParagraph>
+          <ListParagraph>React js<br/>Html<br/>Babel<br/>Css</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -24,21 +24,21 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiLinux size="5rem" />
-        <ListContainer>
-          <ListTitle>CyberSecurity</ListTitle>
-          <ListParagraph>Basic Networking<br/>Linux</ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
         <DiCode size="5rem"/>
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
             C++<br/>
             Python<br/>
-            Babel<br/>
+            Javascript<br/>
           </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiLinux size="5rem" />
+        <ListContainer>
+          <ListTitle>CyberSecurity<br/>(Enthusiast)</ListTitle>
+          <ListParagraph>Basic Networking<br/>Linux</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

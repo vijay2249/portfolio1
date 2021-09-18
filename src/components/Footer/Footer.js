@@ -14,18 +14,17 @@ const Footer = () => {
           <LinkItem href="mailto:vijaychowdary3699@gmail.com">vijaychowdary3699@gmail.com</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <AiFillTwitterSquare size="3rem"/>
-          <LinkTitle>Twitter</LinkTitle>
-          <LinkItem onClick={()=>{window.location="https://twitter.com/VijayCh0710"}} >@VijayCh0710</LinkItem>
+          <AiOutlineMail size="3rem"/>
+          <LinkTitle>Gmail</LinkTitle>
+          <LinkItem href="mailto:nelaku_851983@student.nitw.ac.in">nelaku_851983@student.nitw.ac.in</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialContainer>
         <CompanyContainer><Slogan>Excitement is the key to get going</Slogan></CompanyContainer>
         <SocialIconsContainer>
           <SocialIcons href="https://github.com/vijay2249"><AiFillGithub size="3rem"/></SocialIcons>
-          <SocialIcons href="https://instagram.com/v_jai_cn"><AiFillInstagram size="3rem"/></SocialIcons>
-          <SocialIcons href="https://linkedin.com/in/vijay-chowdary-nelakurthi"><AiFillLinkedin size="3rem"/></SocialIcons>
           <SocialIcons href="https://codesandbox.io/u/vijay2249"><AiFillCodeSandboxSquare size="3rem"/></SocialIcons>
+          <SocialIcons href="https://linkedin.com/in/vijay-chowdary-nelakurthi"><AiFillLinkedin size="3rem"/></SocialIcons>
         </SocialIconsContainer>
       </SocialContainer>
     </FooterWrapper>

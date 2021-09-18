@@ -1,14 +1,15 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
   { number: 2, text: 'Contributed to Open Source Projects'},
+  { number: 'ZTM', text: "Member of the organization ZTM"}
 ];
 
 const Acomplishments = () => (
-  <Section>
+  <Section id="achieved">
     <SectionTitle>Acomplishments</SectionTitle>
     <Boxes>
       {data.map((card,i)=>(

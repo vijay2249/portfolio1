@@ -45,15 +45,14 @@ export const projects = [
 ];
 
 export const WebDevData = [
-  { year: 2021, text: 'Leisure time given to Cyber Security along with Web dev', },
-  { year: 2020, text: 'Started to work on differnt projects and trying to build my own projects', },
-  { year: 2019, text: 'Started Self learning intrest towards web dev', },
-  { year: 2019, text: 'Started my journey', },
+  { year: 2021, text: 'Started contributing to open source projects'},
+  { year: 2020, text: 'Leisure time given to Cyber Security along with Web dev'},
+  { year: 2019, text: 'Started Self learning intrest towards web dev'},
+  { year: 2019, text: 'Started my journey'},
 ];
 
 export const StudyData = [
-  {year:2023, School:"National Institute of Technology, Warangal"},
-  {year:2019, School:'Started learning from Udemy courses and cs50 Harvard online classes'},
-  {year:2019, School:"Sri Chaitanya Jr. College, Vijayawada"},
-  {year:2017, School:"Sri Chaitanya School, Vijayawada"}
+  {year:"2019-", School:"National Institute of Technology"},
+  {year:"2017-19", School:"Sri Chaitanya Jr. College, Vijayawada"},
+  {year:"2015-17", School:"Sri Chaitanya School, Vijayawada"}
 ]
