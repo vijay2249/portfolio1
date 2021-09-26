@@ -10,28 +10,26 @@ const Technologies = () =>  (
     <SectionText> Worked over Frontend tech like React, Bootstrap, Html, Css</SectionText>
     <List>
       <ListItem>
+        <DiCode size="5rem"/>
+        <ListContainer>
+          <ListTitle>Languages</ListTitle>
+          <ListParagraph>
+            C++<br/>Python<br/>Javascript
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
         <DiCodepen size="5rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Frontend</ListTitle>
           <ListParagraph>React js<br/>Html<br/>Babel<br/>Css</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiDjango size="5rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Backend</ListTitle>
           <ListParagraph>Node js(overview)<br/>Django(Overview)</ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiCode size="5rem"/>
-        <ListContainer>
-          <ListTitle>Languages</ListTitle>
-          <ListParagraph>
-            C++<br/>
-            Python<br/>
-            Javascript<br/>
-          </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
