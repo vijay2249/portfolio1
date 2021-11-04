@@ -22,7 +22,7 @@ const Technologies = () =>  (
         <DiCodepen size="5rem" />
         <ListContainer>
           <ListTitle>Frontend</ListTitle>
-          <ListParagraph>ReactJs<br/>Html<br/>Css<br/>Sass</ListParagraph>
+          <ListParagraph>ReactJs<br/>Bootstrap<br/>Html<br/>Css<br/>Sass</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
