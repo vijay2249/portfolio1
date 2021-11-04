@@ -22,21 +22,21 @@ const Technologies = () =>  (
         <DiCodepen size="5rem" />
         <ListContainer>
           <ListTitle>Frontend</ListTitle>
-          <ListParagraph>React js<br/>Html<br/>Babel<br/>Css</ListParagraph>
+          <ListParagraph>ReactJs<br/>Html<br/>Css<br/>Sass</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiDjango size="5rem" />
         <ListContainer>
           <ListTitle>Backend</ListTitle>
-          <ListParagraph>Node js(overview)<br/>Django(Overview)</ListParagraph>
+          <ListParagraph>NodeJs<br/>EJS<br/>ExpressJs<br/>MongoDb<br/>Mongoose</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiLinux size="5rem" />
         <ListContainer>
-          <ListTitle>CyberSecurity<br/>(Enthusiast)</ListTitle>
-          <ListParagraph>Basic Networking<br/>Linux</ListParagraph>
+          <ListTitle>Technologies</ListTitle>
+          <ListParagraph>Linux<br/>VsCode<br/>Github/Git<br/>Postman</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
