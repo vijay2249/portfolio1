@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillCodeSandboxSquare } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillCodeSandboxSquare } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
@@ -18,7 +17,6 @@ const Header = () =>  (
       <li><Link href="#projects"><NavLink>Projects</NavLink></Link></li>
       <li><Link href="#tech"><NavLink>Technologies</NavLink></Link></li>
       <li><Link href="#study"><NavLink>Study</NavLink></Link></li>
-      <li><Link href="#achieved"><NavLink>Achievements</NavLink></Link></li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/vijay2249"><AiFillGithub size="3rem"/></SocialIcons>

@@ -88,7 +88,6 @@ export const Slogan = styled.p`
 	letter-spacing: 0.02em;
 	font-size: 18px;
 	line-height: 30px;
-	padding: 1rem;
 	text-transform:uppercase;
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
@@ -117,7 +116,7 @@ export const SocialContainer = styled.div`
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
-	grid-template-columns: repeat(3, minmax(85px, 220px));
+	grid-template-columns: repeat(6, minmax(85px, 100px));
 	gap: 50px;
   padding: 40px 0 28px;
 
@@ -140,7 +139,7 @@ export const LinkList = styled.ul`
 export const LinkColumn = styled.div`
 	display: flex;
 	flex-direction: column;
-	max-width: 220px;
+	max-width: 100px;
 	width: 100%;
 `
 export const LinkTitle = styled.h4`

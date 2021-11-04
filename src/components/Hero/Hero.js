@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
@@ -19,8 +19,11 @@ const Hero = () => (
       <SectionText>
         I am enthusiatic web developer, worked with frameworks like ReactJs, Bootstrap, Babel along with languages like HTML, CSS, JS..
       </SectionText>
+      <SectionText>
+        Upcoming SDE Summer-Intern at <Link href='https://www.deere.com/en/our-company/'><a target='_blank'>John-Deere</a></Link>
+      </SectionText>
       <div style={buttonsStylingDisplay}>
-        <Button onClick={() => window.location="https://github.com/vijay2249"} >Learn More</Button>
+        <Button onClick={()=>window.location="https://drive.google.com/file/d/1FIJR7YhhFtggtrQGjcHvFSiNAymPvQV9/view?usp=sharing"}>Resume</Button>
       </div>
     </LeftSection>
   </Section>

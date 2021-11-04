@@ -3,6 +3,14 @@ let id = 0;
 // visit -> live demo
 export const projects = [
   {
+    title: 'Smart-Brain',
+    description: "Using React and react hooks and Clarifai api created a new project SmartBrain, this detects the human face in a picture, stores userdata in sql programmed heroku server",
+    tags: ['React', 'API','HTML','Css','Hooks', "Redux" ,"SQL", "Heroku", "Github"],
+    source: 'https://github.com/vijay2249/Smart-Brain',
+    visit: 'https://vijay2249.github.io/Smart-Brain/',
+    id: id++,
+  },
+  {
     title: 'Robo-Friends',
     description: "Using React, and some Html and Css styling properties created a new Robofriends app that combines the topics that i learned along my way to master React.js framework.",
     tags: ['React','JavScript', 'Css', 'Html'],
@@ -11,12 +19,11 @@ export const projects = [
     id: id++,
   },
   {
-    title: 'Smart-Brain',
-    description: "Using React and react hooks and Clarifai api created a new project SmartBrain, this detects the human face in a picture, stores userdata in sql programmed heroku server",
-    tags: ['React', 'API','HTML','Css','Hooks', "Redux" ,"SQL", "Heroku", "Github"],
-    source: 'https://github.com/vijay2249/Smart-Brain',
-    visit: 'https://vijay2249.github.io/Smart-Brain/',
-    id: id++,
+    title: "Delete duplicated in folder",
+    description: "Sometimes its better to have a program/software that do check for duplicate files and deleted them, I got the same issue and created this python script. In this script based on the arguments provided, it either deletes/prints the duplicate files",
+    source: "https://github.com/vijay2249/stress-relief",
+    visit: "https://github.com/vijay2249/stress-relief",
+    tags: ['Python', "Hashing"]
   },
   {
     title: 'Frontend Learnings',
@@ -27,6 +34,13 @@ export const projects = [
     id: id++,
   },
   {
+    title: "Blog-Posts",
+    description: 'Completely server rendered and using no-sql mongodb database, Personal Blog posts website based on NodeJS and EJS templates and ExpressJs',
+    source: 'https://github.com/vijay2249/blog-posts-ejs',
+    visit: "https://github.com/vijay2249/blog-posts-ejs",
+    tags: ['NodeJs', 'EJS', 'MongDB', 'Mongoose', 'ExpressJs']
+  },
+  {
     title:'My CyberSecurity Learnings',
     description:'Apart from learning web development, in my free time I try to learn about cybersecurity and hence after learning something new, I try to share it to the world',
     image:'/images/5.png',
@@ -34,13 +48,6 @@ export const projects = [
     source:'https://github.com/DUMMY-the-BOT',
     visit: 'https://github.com/DUMMY-the-BOT',
     id:id++,
-  },
-  {
-    title: "Delete duplicated in folder",
-    description: "Sometimes its better to have a program/software that do check for duplicate files and deleted them, I got the same issue and created this python script. In this script based on the arguments provided, it either deletes/prints the duplicate files",
-    source: "https://github.com/vijay2249/stress-relief",
-    visit: "https://github.com/vijay2249/stress-relief",
-    tags: ['Python', "Hashing"]
   }
 ];
 
