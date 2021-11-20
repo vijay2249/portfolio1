@@ -24,7 +24,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <ListContainer>
-          <ListTitle>Backend</ListTitle>
+          <ListTitle>Backend/DB</ListTitle>
           <ListParagraph>NodeJs<br/>EJS<br/>ExpressJs<br/>MongoDb<br/>Mongoose</ListParagraph>
         </ListContainer>
       </ListItem>
