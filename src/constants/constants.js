@@ -13,7 +13,7 @@ export const projects = [
   {
     title: 'Robo-Friends',
     description: "Using React, and some Html and Css styling properties created a new Robofriends app that combines the topics that i learned along my way to master React.js framework.",
-    tags: ['React','JavScript', 'Css', 'Html'],
+    tags: ['React','JavaScript', 'Css', 'Html'],
     source: 'https://github.com/vijay2249/RoboFriends',
     visit: 'https://vijay2249.github.io/RoboFriends/',
     id: id++,
@@ -45,8 +45,8 @@ export const projects = [
     description:'Apart from learning web development, in my free time I try to learn about cybersecurity and hence after learning something new, I try to share it to the world',
     image:'/images/5.png',
     tags: ['Python', 'Automation','OSINT','Networking', 'Linux'],
-    source:'https://github.com/DUMMY-the-BOT',
-    visit: 'https://github.com/DUMMY-the-BOT',
+    source:'https://github.com/V1-ZEI',
+    visit: 'https://github.com/V1-ZEI',
     id:id++,
   }
 ];
