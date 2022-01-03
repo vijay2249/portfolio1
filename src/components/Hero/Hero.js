@@ -23,7 +23,7 @@ const Hero = () => (
         Upcoming SDE Summer-Intern at <Link href='https://www.deere.com/en/our-company/'><a target='_blank'>John-Deere</a></Link>
       </SectionText>
       <div style={buttonsStylingDisplay}>
-        <Button onClick={()=>window.location="https://drive.google.com/file/d/18sJnROMiNr-_zv7TIstCnr5_jy8p93jN/view?usp=sharing"}>Resume</Button>
+        <Button onClick={()=>window.open("https://drive.google.com/file/d/18sJnROMiNr-_zv7TIstCnr5_jy8p93jN/view?usp=sharing", "_blank")}>Resume</Button>
       </div>
     </LeftSection>
   </Section>
