@@ -1130,7 +1130,7 @@ next@^12.0.5:
     https-browserify "1.0.0"
     image-size "1.0.0"
     jest-worker "27.0.0-next.5"
-    node-fetch "2.6.1"
+    node-fetch "2.6.7"
     node-html-parser "1.4.9"
     os-browserify "0.3.0"
     p-limit "3.1.0"
@@ -1165,9 +1165,9 @@ next@^12.0.5:
     "@next/swc-win32-ia32-msvc" "12.0.5"
     "@next/swc-win32-x64-msvc" "12.0.5"
 
-node-fetch@2.6.1:
-  version "2.6.1"
-  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz"
+node-fetch@2.6.7:
+  version "2.6.7"
+  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
 
 node-html-parser@1.4.9:
   version "1.4.9"
